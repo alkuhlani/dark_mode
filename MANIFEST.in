@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include dark_mode *.css
+recursive-include dark_mode *.csv
+recursive-include dark_mode *.html
+recursive-include dark_mode *.ico
+recursive-include dark_mode *.js
+recursive-include dark_mode *.json
+recursive-include dark_mode *.md
+recursive-include dark_mode *.png
+recursive-include dark_mode *.py
+recursive-include dark_mode *.svg
+recursive-include dark_mode *.txt
+recursive-exclude dark_mode *.pyc
